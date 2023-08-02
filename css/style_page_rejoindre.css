@@ -1,0 +1,27 @@
+.article_rejoindre{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 60px;
+    background-image: url(../images/fondpattes.jpg);
+}
+
+    .texte_rejoindre{
+        width: 60%;
+        background-color:  rgb(114, 187, 255);
+        margin-bottom: 30px;
+        font-size: 1.3em;
+        border-radius: 10px;
+        padding: 20px 0 20px 0;
+        border: solid 1px rgb(116, 116, 255);
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .texte_rejoindre{
+            width: 99%;
+        }
+
+    }

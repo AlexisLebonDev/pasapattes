@@ -1,0 +1,55 @@
+.article_soin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/fondpattes.jpg);
+}
+
+    .entete_dispensaire h2{
+        font-size: 2em;
+    }
+
+
+.soin_informations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+    .img_dispensaire1{
+        width: 40%;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        
+    }
+
+    .soin_informations p{
+        text-align: center;
+        width: 75%;
+        font-size: 1.3em;
+        padding-bottom: 40px;
+
+    }
+
+    .img_dispensaire2{
+        width: 30%;
+        /* height: 300px; */
+        object-fit:cover;
+
+        border: solid 20px white;
+        margin-bottom: 20px;
+        border-radius: 40px;
+    }
+
+
+
+    @media screen and (max-width: 800px) {
+
+        .img_dispensaire2{
+            width: 300px;
+            border: solid 10px  rgb(114, 187, 255);
+        }
+    }

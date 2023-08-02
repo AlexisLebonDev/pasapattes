@@ -1,0 +1,48 @@
+
+a{
+	color:black;
+	display:block;
+} 
+
+
+.bouton_nav{
+	background-color:  rgb(160, 125, 255);
+	margin-top: 10px;
+	display: none;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	.navbar_choix{
+		position: absolute;
+		left: 0;
+		top:100;
+		display:none;
+
+	}
+	ul{
+		flex-direction: column;
+		background-color:  rgb(160, 125, 255);
+		width: 100vw;
+        display: flex;
+        text-align: center;
+        padding: 0;
+
+	}
+	
+	li{
+		width: 100%;
+        height: 40px;
+        border: solid 1px black;
+        padding-top: 15px;
+        font-size: 1.8em;
+	}
+	.bouton_nav{
+		display: block;
+	}
+
+
+}
+  

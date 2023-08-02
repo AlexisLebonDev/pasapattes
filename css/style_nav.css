@@ -1,0 +1,107 @@
+.navbar {
+    margin: 0;
+    width: 100%;
+
+    background-color: rgb(160, 125, 255);
+    border-bottom: 1px solid black;
+
+}
+
+.navbar_contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+
+}
+
+
+.navbar_reseaux {
+    display: flex;
+    padding-top: 10px;
+
+}
+    .logo_twitter_image {
+        width: 30px;
+    }
+    .logo_facebook_image{
+        width: 30px;
+    }
+    .logo_instagram_image{
+        width: 30px;
+    }
+    .logo_youtube_image{
+        width: 32px;
+    }
+
+
+.logo_accueil_pasapattes {
+    width: 200px;
+    padding-top: 30px;
+
+}
+
+.navbar_choix {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    list-style-image: url('#');
+    font-size: 1em;
+    font-weight: bold;
+    list-style: none;
+    
+  }
+
+  li{
+    padding: 10px;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+  }
+
+
+
+@media screen and (max-width: 760px) {
+
+    .navbar_contact {
+        justify-content: center;
+        display: none;
+
+    }
+
+        .logo_twitter_image {
+            display: none;
+        }
+        .logo_facebook_image{
+            display: none;
+        }
+        .logo_instagram_image{
+            display: none;
+        }
+        .logo_youtube_image{
+            display: none;
+        }
+    
+    .logo_accueil_pasapattes {
+        width: 100px;
+        padding: 10px 0 10px 0;
+    }
+
+    .navbar_tel {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    
+    }
+
+    li {
+        padding: 0;
+    }
+
+}

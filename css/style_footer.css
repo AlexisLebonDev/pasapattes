@@ -1,0 +1,134 @@
+footer {
+    position: relative;
+
+}
+
+.animauxfooter{
+    width: 100%;
+    z-index: 2;
+    margin-bottom: -5.9vw;
+
+}
+
+
+.informationsfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color:  rgb(160, 125, 255);
+    padding-top: 30px;
+    border-top: solid 1px black;
+
+}
+
+    .lesdernieresactus {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .reseauxfooter {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        align-items: center;
+    }
+        .reseauxfooter img{
+            width: 40px;
+        }
+
+
+    .contact_recrutement {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    footer a{
+
+        color: black;
+    }
+
+.logo_pasapattes_footer {
+ display: none;
+}
+    
+
+
+@media screen and (max-width: 800px) {
+
+
+footer {
+    position: relative;
+    
+}
+
+.animauxfooter{
+    width: 100%;
+    z-index: 2;
+    margin-bottom: -6vw;
+
+}
+
+
+.informationsfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color:  rgb(160, 125, 255);
+padding-top: 30px;
+align-items: center;
+
+}
+
+    .lesdernieresactus {
+        display: none;
+    }
+
+    .reseauxfooter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        
+    }
+        .reseauxfooter h4{
+            display: none;
+        }
+
+        .reseauxfooter img{
+            width: 60px;
+
+        }
+
+
+    .contact_recrutement {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+
+        .contact_recrutement p{
+            text-align: center;
+        }
+
+
+    footer a{
+
+        color: black;
+    }
+
+    .logo_pasapattes_footer {
+        display:flex;
+       }
+
+    .contact_recrutement h4{
+        font-size: 1.5em;
+        line-height: 0;
+    }
+
+}

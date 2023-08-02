@@ -1,0 +1,98 @@
+.article_adoptionp2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .img_adoption2{
+        width: 70%;
+        border-radius: 20px;
+    }
+
+    .bouton_adoption{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 5px;
+
+    }
+
+    .bouton_adoption button{
+        background-color: rgb(139, 197, 255);
+        width: 200px;
+        height: 40px;
+    }
+
+
+.article_noscompagnons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+    .entete_compagnons{
+        width: 100%;
+        background-color:  rgb(160, 125, 255);
+        font-size: 1.3em;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-bottom: 50px;
+        
+    }
+
+    .grilles_compagnons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
+
+        .vignette_compagnon{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 400px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .img_compagnon{
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: solid 1px black;
+        }
+
+        .vignette_compagnon p{
+            background-color:  rgb(139, 197, 255);
+            width: 200px;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            border: solid 1px rgb(108, 108, 255);
+            font-size: 1.3em;
+        }
+
+        .p_vignette_compagnon{
+            height: 125px;
+            margin-top: 0;
+            margin-bottom: 0;
+            display: flex;
+            align-items: center;
+            
+        }
+
+
+@media screen and (max-width: 800px) {
+
+    .bouton_adoption{
+        display: flex;
+        flex-direction: column;
+    }
+}
